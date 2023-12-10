@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  padding: 20px 0;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 36px;
+}
+
+.nav{
+  display: none;
+}
+
+.header-left{
+  display: flex;
+}
+
+.header-left a{
+  display: flex;
+  align-items: center;
+}
+
+.left-img{
+  height: 20px;
+  width: auto;
+}
+
+.left-img:hover{
+  transition: 0.2s;
+  opacity: 0.8;
+}
+
+.header-right a{
+  display: inline-block;
+}
+
+.header-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.header-1{
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: 400;
+  text-shadow: 0.2px 0.2px 0 black;
+  margin-right: 45px;
+}
+
+.header-1:hover{
+  transition: 0.2s;
+  opacity: 0.6;
+}
+
+.header-2{
+  background-color: #f79214;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  padding: 11px 20px;
+}
+
+.header-2:hover{
+  transition: 0.1s;
+  opacity: 0.8;
+}
+
+.header-right span{
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.main_1{
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center top;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+.main_1_image{
+  display: none;
+}
+
+.mid-container{
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.container-left{
+  width: fit-content;
+  margin-bottom: 70px;
+}
+
+.container-left-text{
+  font-size: 37px;
+  text-align: center;
+}
+
+.container-left-text p{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container-icon {
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.icon{
+  margin: 0 10px 0 0; 
+}
+
+.icon-1,.icon-3{
+  width: 130px;
+}
+
+.icon-2{
+  width: 200px;
+}
+
+.container-btn{
+  align-items: center;
+  background-color: #f79214;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-btn:hover{
+  transition: 0.2s;
+  opacity: 0.8;
+}
+
+.container-description{
+  font-size: 11px;
+  letter-spacing: 0.6px;
+  opacity: 0.3;
+  
+}
+
+.main_2 {
+  background-color: #f79214;
+  display: flex;
+  justify-content: center;
+  padding: 44px 0;
+  margin: 0;
+}
+
+.btm-container{
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.description-left{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.description-right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 32px;
+}
+
+.description-left video{
+  width: 100%;
+}
+
+.description-right h2{
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 0px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.description-right p{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.description-right img{
+  width: 158px;
+}
